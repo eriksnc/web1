@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo Tablas</title>
+</head>
+
+<style>
+    .fondo {
+        background-color: rgb(9, 199, 174);
+    }
+
+    .margen1 {
+        width:100%;
+    }
+
+    .color1 {
+        background-color: rgb(245, 61, 61);
+    }
+
+    .color2 {
+        background-color: rgb(85, 153, 255);
+
+    }
+
+    .color3 {
+        background-color: rgb(162, 78, 241);
+    }
+
+    .color4 {
+        background-color: rgb(5, 211, 108) ;
+        color: white;
+        margin-bottom:-16px;
+    }
+
+    .color5 {
+        background-color: gold;
+
+    }
+
+    .color6 {
+        background-color: white;
+        padding-right: 884px;
+    }
+
+    .color7 {
+        background-color: rgb(245, 61, 61);
+        color: white;
+        margin-bottom:-16px ;
+    }
+
+    .color8 {
+        background-color: rgb(151, 65, 231);
+        color: white;
+    }
+
+    .funciona {
+        padding-left: 881px;
+
+    }
+
+    .borde1 {
+        border: gray 2px outset;
+        background-color: black;
+    }
+    .blancas{
+        margin-bottom:-3px ;
+        color: white;
+
+    }
+
+</style>
+
+<body class="fondo">
+
+<div></div>
+    <!--Ejemplo 1-->
+    <p class="blancas">Ej 1: con 1 tabla:</p>
+    <table class="borde1" width=100%>
+
+        <tr class="color1">
+            <td>fila 1</td>
+        </tr>
+
+        <tr class="color2">
+            <td align ="right">fila 2</td>
+        </tr>
+
+        <tr class="color3">
+            <td>fila 3</td>
+        </tr>
+
+    </table>
+
+<br>
+    <!--Ejemplo 2-->
+    <p class="blancas">Ej 2: con 3 tablas:</p>
+    <div>
+        <table border="3" class="margen1">
+            <tr class="color2">
+                <td>fila 1</td>
+            </tr>
+        </table>
+<br>
+        <table border="5" class="margen1">
+            <tr class="color5">
+                <td class="funciona">fila 2</td>
+            </tr>
+        </table>
+<br>
+        <table border="1" width=100%>
+            <tr>
+                <td class="color6" class="funciona">fila 3</td>
+            </tr>
+        </table>
+    </div>
+
+    <!--Ejemplo 3-->
+    <p class="blancas">Ej 3: con 3 divs:</p>
+
+    <div class="color4">
+        <p>div 1</p>
+    </div>
+
+    <div class="color7" align="right">
+        <p class="div2">div 2</p>
+    </div>
+
+    <div class="color8">
+        <p class="div3">div 3</p>
+    </div>
+
+</body>
+
+</html>
