@@ -1,0 +1,57 @@
+body{
+    background-color: #ABFFAB ;
+    font-family: monospace;
+    padding: 5em;
+
+}
+.fondoblanco{
+    background-color: white;
+}
+.fondoazul{
+    background-color: aqua;
+}
+.fondonegro{
+    background-color: black;
+}
+.texto1{
+
+    text-align: center;
+    font-size: 5em;
+    color: darkgray;
+}
+
+.texto2{
+
+    font-size: 1em;
+    color: white;
+    text-align: left;
+}
+
+.texto3{
+
+    font-size: 1.5em;
+    text-align: center;
+    color: white;
+}
+
+.texto4{
+
+    font-size: 1.5em;
+    color: white;
+    text-align: left;
+
+}
+
+.imagenEstilo{
+
+    width: 85%;
+    text-align: center;
+
+}
+
+.bordeblanco{
+
+    border: 25px solid white;
+    border-radius: 15px;
+
+}
