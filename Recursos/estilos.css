@@ -1,9 +1,14 @@
 body{
-    background-color: #ABFFAB ;
+    background-color: #eb9839 ;
     font-family: monospace;
     padding: 5em;
 
 }
+@font-face {
+    font-family: fuenteErik;
+    src: url(Fuente/angrybirds-regular.ttf);
+}
+
 .fondoblanco{
     background-color: white;
 }
@@ -32,6 +37,10 @@ body{
     font-size: 1.5em;
     text-align: center;
     color: white;
+    padding-bottom: 5px;
+    margin-top: -1.5px;
+    margin-left: 1px;
+    margin-right: 1px;
 }
 
 .texto4{
@@ -39,6 +48,8 @@ body{
     font-size: 1.5em;
     color: white;
     text-align: left;
+    font-family: fuenteErik;
+    
 
 }
 
@@ -55,3 +66,12 @@ body{
     border-radius: 15px;
 
 }
+.fondoimagen{
+    background-image: url(media/mira.jpg);
+    width: 100%;
+    background-repeat: no-repeat;
+    text-align: center;
+    background-size: 15rem;
+    padding: 25px;
+}
+
