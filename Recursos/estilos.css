@@ -59,6 +59,15 @@ body{
     text-align: center;
 
 }
+.blood{
+    
+    background-image: url(media/sangre.jpg);    
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: 30% 0.5%;
+    text-align: center;
+    background-size: 15rem;   
+}
 
 .bordeblanco{
 
@@ -67,11 +76,27 @@ body{
 
 }
 .fondoimagen{
-    background-image: url(media/mira.jpg);
+    background-image: url(media/mira.jpg);    
     width: 100%;
     background-repeat: no-repeat;
     text-align: center;
     background-size: 15rem;
+    background-position: 38% 100%;
     padding: 25px;
+    padding-bottom: -5px;
+}
+.fondoimagen2{
+    background-image: url(media/hallowen.jpg);    
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: 100% 85%;
+    text-align: center;
+    background-size: 100rem;   
+}
+.margen{
+    padding-left: -80px;
+}
+.espacio{
+    padding-right: 25px;
 }
 
