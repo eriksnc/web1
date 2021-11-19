@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario 1</title>
+</head>
+
+<body>
+    <!---Get: Los valores que enviamos se añaden a la direccion indicada dentro de nuestro atributo
+         post: Los valores los enviamos  de manera separada-->
+
+    <div>
+        <h1>Mi Primer Formulario</h1>
+    </div>
+
+    <form action="control.php" method="get">
+        <p>Nombre: <input type="text" name="nombre" size="40" required autofocus></p>
+        <p>Año de Nacimiento <input type="number" name="nacimiento" min="1975"></p>
+        <p>Email: <input type="text" name="correo" placeholder="Correo con dominio @aragon.unam.mx" size="30"></p>
+        <p>Numero de tarjeta de credito <input type="num" name="tarjeta" maxlength=16 placeholder="Ingrese 16 digitos de su tarjeta"></p>
+        <p>Password: <input type="password" name="contraseña" placeholder="Ingresa tu contraseña"></p>
+        <hr>
+        <p>Genero:
+            <input type="radio" name="genero" value="H"> Hombre
+            <input type="radio" name="genero" value="M"> Mujer
+            <input type="radio" name="genero" value="O"> Otro
+        </p>
+
+        <input type="submit" value="enviar">
+        <input type="reset" value="enviar">
+
+
+    </form>
+
+
+</body>
+
+</html>
